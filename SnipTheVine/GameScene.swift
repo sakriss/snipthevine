@@ -225,7 +225,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
       chomp.impactOccurred()
       
       // transition to next level
-      switchToNewGameWithTransition(SKTransition.doorway(withDuration: 1.0))
+      switchToNewGameWithTransition(SKTransition.flipHorizontal(withDuration: 1.0))
     }
   }
   
